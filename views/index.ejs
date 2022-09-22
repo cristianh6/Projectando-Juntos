@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <%- include('./partials/head'); %>
+  
+  <body>
+    
+    <%- include('./partials/header'); %>
+    
+    <main class="index__main">
+      
+      <%- include('./components/carousel'); %>
+
+      <nav class="index__main-nav">
+        <section class="index__main-section1">
+
+          <article class="index__article1">
+            <h3>Una comunidad</h3>
+            <div class="index__div1">
+              <img src="/images/puzzle1.png" alt="">
+              <span>Creá tu usuario, subí tu proyecto y sé parte de la comunidad que mejor comprende porqué el futuro sólo lo podemos construir en colaboración con otros</span>
+            </div>
+              <div class="index__article-buttons">
+                <div>
+                  <a href="/"><span>¿Cómo funciona?</span></a>
+                </div>
+                <div>
+                    <a href="/"><span>Registrate</span></a>
+                </div>
+              </div>
+          </article>
+          
+            <article class="index__article2">
+              <h3>Un equipo</h3>
+              <div class="index__div2">    
+                <img src="/images/932849bef6780ff06f4c73495bcb8eef.jpg" alt="">
+                <span>Un contexto colaborativo en el que todos somos parte del mismo objetivo: <strong>llevar tu proyecto hacia la mejor versión de si mismo</strong></span>
+              </div>
+              <div class="index__article-buttons">
+                <div>
+                  <a href="/aboutUs"><span>Más información</span></a>
+                </div>
+              </div>
+            </article>
+
+          <article class="index__article3">
+            <h3>Tú proyecto</h3>
+            <div class="index__div3">
+              <img src="/images/puzzle-incomplete.png" alt=""">
+              <span>No importa la etapa en la que se encuentre, aquí siempre habrá alguien dispuesto a despejar los obstaculos junto a nosotros</span>
+            </div>
+            <div class="index__article-buttons">
+              <div>
+                <a href="/"><span>Más información</span></a>
+              </div>
+              <div>
+                  <a href="/"><span>Registrate</span></a>
+              </div>
+            </div>
+          </article>
+
+      </section>
+      </nav>
+      
+
+    </main>
+    
+
+    <%- include('./partials/footer'); %>
+
+  </body>
+</html>

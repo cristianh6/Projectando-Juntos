@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <%- include('../partials/head'); %>
+
+  <body>
+    <%- include('../partials/header'); %>
+
+    <main class="index__main">
+      <nav class="index__main-nav">
+        
+        <section class="index__main-section1"> 
+          <h2>Formulario de registro</h2>  
+          <form class="form-control w-50 border-0 bg-transparent">
+            <div class="mx-auto form-outline mt-5 mb-5 w-50">
+                <input type="text" name="register-name" id="register-name" class="form-control"/>
+                <label class="form-label" for="register-name">Nombre</label>
+            </div>
+            <div class="mx-auto form-outline mt-5 mb-5 w-50">
+                <input type="text" name="register-surname" id="register-surname" class="form-control" />
+                <label class="form-label" for="register-surname">Apellido</label>
+            </div>
+            <div class="mx-auto form-outline mt-5 mb-5 w-50">
+                <input type="text" name="register-mail" id="register-mail" class="form-control" />
+                <label class="form-label" for="register-mail">Email</label>
+            </div>
+            <div class="mx-auto form-outline mt-5 mb-5 w-50">
+              <input type="password" name="register-password" id="register-password" class="form-control" />
+              <label class="form-label" for="register-password">Contraseña</label>
+            </div>
+            <div class="mx-auto form-outline mt-5 mb-5 w-50">
+                <button type="button" class="w-100 btn text-center mb-1" style="background-color: var(--petroleo3); color:white; border: 1px solid black;">Registrarse</button>
+            </div>
+            
+          
+            <div id="login__buttons" class="text-center">
+              <p>¿Ya estás registrado? <a href="/users/login">Ingresar</a></p>
+              <p>o ingresar con:</p>
+              <button type="button" class="btn btn-link btn-floating mx-1" style="color: var(--petroleo3);border: 1px solid black; background-color: var(--amarillo3);">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+          
+              <button type="button" class="btn btn-link btn-floating mx-1" style="color: var(--petroleo3);border: 1px solid black; background-color: var(--amarillo3);">
+                <i class="fab fa-google"></i>
+              </button>
+          
+              <button type="button" class="btn btn-link btn-floating mx-1" style="color: var(--petroleo3);border: 1px solid black; background-color: var(--amarillo3);">
+                <i class="fab fa-twitter"></i>
+              </button>
+          
+              <button type="button" class="btn btn-link btn-floating mx-1" style="color: var(--petroleo3);border: 1px solid black; background-color: var(--amarillo3);">
+                <i class="fab fa-github"></i>
+              </button>
+            </div>
+          </form>
+        </section>
+      </nav>
+    </main>
+
+    <%- include('../partials/footer'); %>
+  </body>
+</html>

@@ -45,7 +45,6 @@ article.forEach(article => {
           artStyle2(),
           artStyle3()
         }, 1000);
-
       } else if(!document.body.scrollTop || !document.documentElement.scrollTop) {
         setTimeout(() => {
           artStyle1(),
@@ -63,9 +62,7 @@ article.forEach(article => {
   })
 
 
-/* }); */
-
-/* const fetchdData = async () => {
+ const fetchdData = async () => {
     try {
         const respuesta = await fetch('https://pokeapi.co/api/v2/pokemon/ditto');
         const data = await respuesta.json() ;
@@ -81,4 +78,4 @@ article.forEach(article => {
         console.log(error)
     }
 }
- */
+
